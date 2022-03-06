@@ -1,0 +1,39 @@
+.photo-grid {
+  padding: 0 3.75% 7.1875% 3.75%;
+}
+
+.photo-grid__gallery {
+  list-style-type: none;
+  width: 92.5%;
+  margin: 0 auto 0 auto;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3.619909502262443% 1.351351351351351%;
+}
+
+.photo-grid__item {
+  max-width: 100%;
+}
+
+.photo-grid__image {
+  width: 100%;
+}
+
+@media screen and(max-width:768px) {
+  .photo-grid {
+    width: 93.75%;
+    padding: 0 3.125% 11.45833333333333% 3.125%;
+  }
+}
+
+@media screen and(max-width:768px) {
+  .photo-grid__gallery {
+    width: 100%;
+    margin: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2.222222222222222%;
+  }
+} /*Why is this not working?!?*/

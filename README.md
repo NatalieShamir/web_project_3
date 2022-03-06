@@ -1,19 +1,20 @@
 # Project 3: From Homeland to Homeland
-### Overview  
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**    
-  
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!  
+
+### Overview
+
+- Project Description
+- Technologies and Techniques Used
+- GitHub Link
+
+**Project Description**
+
+This project is a responsive website, designed to be displayed on most popular screen sizes, that showcases the hometowns of some of Practicum's employees with an additional block about my hometown, personalizing this project.
+
+**Technologies and Techniques Used**
+
+Both Flexbox and CSS Grid have been implemented in order to arrange elements in different blocks and make the layout responsive, Flexbox in Cover section and CSS Grid in both Photo-Grid and Places sections. Relative values, such as percentage, have been used to specify measurements in accordance with reponsive design principles. Media queries have been implemented to specifiy stlyes for three screen widths: 1280px, 768px and 320px.
+CSS files have been organized according to BEM methodology.
+
+**GitHub**
+
+- [Link to the project on GitHub]()

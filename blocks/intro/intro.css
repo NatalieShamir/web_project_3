@@ -1,0 +1,103 @@
+.intro {
+  color: #ffffff;
+  width: 61.328125%;
+  padding: 0 27.109375% 9.21875% 11.5625%;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../../../fonts/Inter-Black.woff2") format("woff2"),
+    url("../../../fonts/Inter-Black.woff") format("woff");
+}
+
+.intro__title {
+  margin-top: 0;
+  margin-bottom: 5.0955414013%;
+  max-width: 100%;
+  height: 14.7770700637%;
+  font-family: "Inter", sans-serif;
+  font-size: 54px;
+  line-height: 1.07;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../../fonts/Inter Web/Inter-Regular.woff2") format("woff2"),
+    url("../../../fonts/Inter Web/Inter-Regular.woff") format("woff");
+}
+
+.intro__quote {
+  max-width: 91.7197452229%;
+  margin-top: 0 8.280254777070064% 1.273885350318471% 0;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  line-height: 1.42;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../../fonts/Inter Web/Inter-Regular.woff2") format("woff2"),
+    url("../../../fonts/Inter Web/Inter-Regular.woff") format("woff");
+}
+
+.intro__author {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 91.7197452229%;
+  margin: 0 8.2802547771% 4.076433121% 0;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  line-height: 1.42;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../../../fonts/Inter Web/Inter-Regular.woff") format("woff");
+}
+
+.intro__text {
+  max-width: 91.7197452229%;
+  margin: 0 8.2802547771% 0 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 3.125% 11.71875% 3.125%;
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__quote {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__author {
+    max-width: 100%;
+  }
+}
+
+@media screen and(max-width:768px) {
+  .intro__text {
+    max-width: 100%;
+  }
+}

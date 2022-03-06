@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 2.65625% 39.453125% 7.03125% 39.453125%;
+}
+
+.header__logo {
+  margin: 2.65625% 39.453125% 7.03125% 39.453125%;
+}

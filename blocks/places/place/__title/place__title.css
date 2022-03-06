@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../../../../fonts/Inter-Black.woff2") format("woff2"),
+    url("../../../../fonts/Inter-Black.woff") format("woff");
+}
+
+.place__title {
+  grid-area: title;
+  max-width: 93.5%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 72px;
+  line-height: 1.06;
+  color: #ffffff;
+  text-rendering: optimizeLegibility;
+}

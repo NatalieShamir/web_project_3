@@ -1,0 +1,23 @@
+.footer {
+  background-color: #2a2c2f;
+  padding: 0 43.59375% 1.9% 43.515625%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../../../fonts/Inter-Regular.woff") format("woff");
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+}

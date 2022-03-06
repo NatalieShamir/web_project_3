@@ -1,0 +1,28 @@
+.photo-grid__gallery {
+  list-style-type: none;
+  width: 92.5%;
+  margin: 0 auto 0 auto;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /*grid-template-areas:
+    "photo1 photo2 photo3 photo4"
+    "photo5 photo6 photo7 photo8";*/
+  gap: 3.619909502262443% 1.351351351351351%;
+}
+
+@media screen and(max-width:768px) {
+  .photo-grid__gallery {
+    width: 100%;
+    margin: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    /*grid-template-areas:
+      "photo1 photo2"
+      "photo3 photo4"
+      "photo5 photo6"
+      "photo7 photo8";*/
+    gap: 2.222222222222222%;
+  }
+}

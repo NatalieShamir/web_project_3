@@ -1,0 +1,129 @@
+.place {
+  margin-bottom: 8.107%;
+  display: grid;
+  grid-template-columns: calc(984px / 2) 1fr;
+  grid-gap: 48px 40px;
+  grid-template-areas:
+    "title artist"
+    "image content"
+    "button content";
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../../../../fonts/Inter-Black.woff2") format("woff2"),
+    url("../../../../fonts/Inter-Black.woff") format("woff");
+}
+
+.place__title {
+  grid-area: title;
+  max-width: 93.5%;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 72px;
+  line-height: 1.06;
+  color: #ffffff;
+  text-rendering: optimizeLegibility;
+}
+
+.place__artist-info {
+  grid-area: artist;
+  align-self: end;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../../../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../../../../fonts/Inter-Regular.woff") format("woff");
+}
+
+.place__url-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.12em;
+  color: #aaaaaa;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../../../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../../../../fonts/Inter-Regular.woff") format("woff");
+}
+
+.place__artist {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #ffffff;
+}
+
+.place__image {
+  grid-area: image;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../../../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../../../../fonts/Inter-Regular.woff") format("woff");
+}
+
+.place__content {
+  grid-area: content;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #ffffff;
+}
+
+.place__paragraph {
+  margin-top: 0;
+  margin-bottom: 5.165289256198347%;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../../../../fonts/Inter-SemiBold.woff2") format("woff2"),
+    url("../../../../fonts/Inter-SemiBold.woff") format("woff");
+}
+
+.place__button {
+  grid-area: button;
+  padding: 13px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #0278fe;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.place__button:hover {
+  background-color: #0063d2;
+}
