@@ -1,6 +1,6 @@
 .lead {
   width: 76.875%;
-  margin: 0 11.5625% 7.1875% 11.5625%;
+  padding: 0 148px 92px 148px;
 }
 
 @font-face {
@@ -8,8 +8,8 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("../fonts/Inter-Black.woff2") format("woff2"),
-    url("../fonts/Inter-Black.woff") format("woff");
+  src: url("../../fonts/Inter-Black.woff2") format("woff2"),
+    url("../../fonts/Inter-Black.woff") format("woff");
 }
 
 .lead__title {
@@ -18,8 +18,8 @@
   color: #ffffff;
   font-size: 96px;
   line-height: 1.04;
-  margin: 0 /*auto*/ 9.756097561% 3.2520325203% /*auto*/ 9.6544715447%;
-  max-width: 80.6% /*793px*/;
+  margin: 0 auto 32px auto;
+  max-width: 793px;
   text-rendering: optimizeLegibility;
 }
 
@@ -28,16 +28,16 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Inter-Regular.woff2") format("woff2"),
-    url("../fonts/Inter-Regular.woff") format("woff");
+  src: url("../../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../../fonts/Inter-Regular.woff") format("woff");
 }
 
 .lead__subtitle {
   display: flex;
   justify-content: center;
   text-align: center;
-  max-width: 56.25%;
-  margin: 0 auto 6.5040650407% auto;
+  max-width: 720px;
+  margin: 0 auto 64px auto;
   font-family: "Inter", sans-serif;
   color: #ffffff;
   font-size: 30px;
@@ -48,30 +48,45 @@
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .lead {
     width: 100%;
-    margin: 0 auto;
-    padding-bottom: 11.45833333333333%;
+    padding: 0 0 88px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .lead__title {
-    margin: 0 3.125% 4.166666666666667% 3.125%;
-    max-width: 93.75%;
+    margin: 0 24px 32px 24px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .lead__subtitle {
-    margin: 0 3.125% 4.166666666666667% 3.125%;
-    max-width: 93.75%;
+    margin: 0 24px 36px 24px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .lead__image {
-    width: 100%;
+@media screen and (max-width: 600px) {
+  .lead {
+    padding-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead__title {
+    max-width: 90%;
+    font-size: 44px;
+    line-height: 1.1;
+    margin: 0 16px 16px 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead__subtitle {
+    max-width: 90%;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 0 16px 40px 16px;
   }
 }

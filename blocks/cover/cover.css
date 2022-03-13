@@ -1,6 +1,6 @@
 .cover {
   box-sizing: border-box;
-  margin: 9.781% 5.103% 9.781% 5.103%;
+  margin: 92px 48px 92px 48px;
   background-image: url("../../images/cover__background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,16 +22,17 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("../../../fonts/Inter-Black.woff2") format("woff2"),
-    url("../../../fonts/Inter-Black.woff") format("woff");
+  src: url("../../fonts/Inter-Black.woff2") format("woff2"),
+    url("../../fonts/Inter-Black.woff") format("woff");
 }
 
 .cover__title {
+  max-width: 656px;
   font-family: "Inter", sans-serif;
   color: #fffdfd;
   font-size: 72px;
   line-height: 1.06;
-  margin-top: 8%;
+  margin-top: 0;
   margin-bottom: 0;
   text-rendering: optimizeLegibility;
 }
@@ -41,18 +42,18 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../../../fonts/Inter-Regular.woff2") format("woff2"),
-    url("../../../fonts/Inter-Regular.woff") format("woff");
+  src: url("../../fonts/Inter-Regular.woff2") format("woff2"),
+    url("../../fonts/Inter-Regular.woff") format("woff");
 }
 
 .cover__subtitle {
+  max-width: 230px;
+  text-align: center;
   font-family: "Inter", sans-serif;
   color: #ffffff;
   font-size: 18px;
   line-height: 1.22;
-  margin: 0 38.17567567567568% 0 38.17567567567568%;
-  padding-top: 6.358%;
-  padding-bottom: 6.358%;
+  margin: 32px 0 32px 0;
 }
 
 @font-face {
@@ -60,8 +61,8 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("../../../fonts/Inter-SemiBold.woff2") format("woff2"),
-    url("../../../fonts/Inter-SemiBold.woff") format("woff");
+  src: url("../../fonts/Inter-SemiBold.woff2") format("woff2"),
+    url("../../fonts/Inter-SemiBold.woff") format("woff");
 }
 
 .cover__button {
@@ -84,4 +85,34 @@
 
 .cover__button:hover {
   background-color: #0063d2;
+}
+
+@media screen and (max-width: 960px) {
+  .cover {
+    margin: 92px 0 88px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover {
+    margin: 14px 0 64px 0;
+    min-height: 254px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover__subtitle {
+    max-width: 180px;
+    font-size: 14px;
+    line-height: 1.14;
+    margin: 16px 0 16px 0;
+  }
 }

@@ -1,5 +1,5 @@
 .photo-grid {
-  padding: 0 3.75% 7.1875% 3.75%;
+  padding: 0 48px 92px 48px;
 }
 
 .photo-grid__gallery {
@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 3.619909502262443% 1.351351351351351%;
+  gap: 16px;
 }
 
 .photo-grid__item {
@@ -21,19 +21,35 @@
   width: 100%;
 }
 
-@media screen and(max-width:768px) {
+@media screen and (max-width: 960px) {
   .photo-grid {
     width: 93.75%;
-    padding: 0 3.125% 11.45833333333333% 3.125%;
+    padding: 0 24px 88px 24px;
   }
 }
 
-@media screen and(max-width:768px) {
+@media screen and (max-width: 960px) {
   .photo-grid__gallery {
     width: 100%;
     margin: 0;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 2.222222222222222%;
   }
-} /*Why is this not working?!?*/
+}
+
+@media screen and (max-width: 600px) {
+  .photo-grid {
+    width: 90%;
+    padding: 0 16px 62px 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .photo-grid__gallery {
+    width: 100%;
+    margin: 0;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-row-gap: 12px;
+  }
+}
