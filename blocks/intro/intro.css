@@ -1,6 +1,5 @@
 .intro {
   color: #ffffff;
-  width: 61.328125%;
   padding: 0 347px 118px 148px;
 }
 
@@ -19,7 +18,7 @@
   max-width: 100%;
   font-family: "Inter", sans-serif;
   font-size: 54px;
-  line-height: 1.07;
+  line-height: 58px;
   text-rendering: optimizeLegibility;
 }
 
@@ -37,7 +36,7 @@
   margin: 0 65px 10px 0;
   font-family: "Inter", sans-serif;
   font-size: 24px;
-  line-height: 1.42;
+  line-height: 34px;
 }
 
 @font-face {
@@ -56,7 +55,7 @@
   margin: 0 65px 32px 0;
   font-family: "Inter", sans-serif;
   font-size: 24px;
-  line-height: 1.42;
+  line-height: 34px;
 }
 
 @font-face {
@@ -73,13 +72,13 @@
   margin: 0 65px 0 0;
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 26.08px;
 }
 
 @media screen and (max-width: 960px) {
   .intro {
     padding: 0 24px 90px 24px;
-    width: 93.75%;
+    width: 720px;
   }
 }
 
@@ -103,7 +102,7 @@
 
 @media screen and (max-width: 600px) {
   .intro {
-    width: 90%;
+    width: 288px;
     padding: 0 16px 90px 16px;
   }
 }
@@ -113,7 +112,7 @@
     max-width: 100%;
     margin-bottom: 40px;
     font-size: 32px;
-    line-height: 1.09375;
+    line-height: 35px;
   }
 }
 
@@ -121,7 +120,7 @@
   .intro__quote {
     max-width: 100%;
     margin: 0 0 10px 0;
-    line-height: 1.25;
+    line-height: 30px;
   }
 }
 

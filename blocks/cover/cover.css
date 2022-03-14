@@ -31,7 +31,7 @@
   font-family: "Inter", sans-serif;
   color: #fffdfd;
   font-size: 72px;
-  line-height: 1.06;
+  line-height: 76px;
   margin-top: 0;
   margin-bottom: 0;
   text-rendering: optimizeLegibility;
@@ -52,7 +52,7 @@
   font-family: "Inter", sans-serif;
   color: #ffffff;
   font-size: 18px;
-  line-height: 1.22;
+  line-height: 22px;
   margin: 32px 0 32px 0;
 }
 
@@ -80,7 +80,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 21.78px;
 }
 
 .cover__button:hover {
@@ -104,7 +104,7 @@
   .cover__title {
     max-width: 288px;
     font-size: 32px;
-    line-height: 1.09;
+    line-height: 35px;
   }
 }
 
@@ -112,7 +112,7 @@
   .cover__subtitle {
     max-width: 180px;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 16px;
     margin: 16px 0 16px 0;
   }
 }

@@ -18,7 +18,7 @@
   justify-content: center;
   font-family: "Inter", sans-serif;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   color: #ffffff;
 }
 
@@ -36,6 +36,6 @@
 
 @media screen and (max-width: 600px) {
   .footer__copyright {
-    line-height: 1;
+    line-height: 14px;
   }
 }
