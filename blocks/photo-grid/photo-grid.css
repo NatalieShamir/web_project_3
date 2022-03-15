@@ -4,7 +4,7 @@
 
 .photo-grid__gallery {
   list-style-type: none;
-  width: 1184px;
+  max-width: 1184px;
   margin: 0 auto 0 auto;
   padding-left: 0;
   display: grid;
