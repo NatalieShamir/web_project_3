@@ -13,7 +13,6 @@
 }
 
 .cover:hover {
-  background-image: url("../../images/cover__background.jpg");
   color: #2a2c2f;
   opacity: 0.8;
 }
