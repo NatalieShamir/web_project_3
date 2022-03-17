@@ -2,18 +2,9 @@
   padding: 0 148px 92px 148px;
 }
 
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("../../fonts/Inter-Black.woff2") format("woff2"),
-    url("../../fonts/Inter-Black.woff") format("woff");
-}
-
 .lead__title {
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   color: #ffffff;
   font-size: 96px;
   line-height: 100px;
@@ -22,22 +13,13 @@
   text-rendering: optimizeLegibility;
 }
 
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../../fonts/Inter-Regular.woff2") format("woff2"),
-    url("../../fonts/Inter-Regular.woff") format("woff");
-}
-
 .lead__subtitle {
   display: flex;
   justify-content: center;
   text-align: center;
   max-width: 720px;
   margin: 0 auto 64px auto;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   color: #ffffff;
   font-size: 30px;
   line-height: 36px;

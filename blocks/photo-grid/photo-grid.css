@@ -24,14 +24,13 @@
 
 @media screen and (max-width: 960px) {
   .photo-grid {
-    width: 94%;
+    max-width: 94%;
     padding: 0 24px 88px 24px;
   }
 }
 
 @media screen and (max-width: 960px) {
   .photo-grid__gallery {
-    width: 100%;
     margin: 0;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -40,14 +39,13 @@
 
 @media screen and (max-width: 600px) {
   .photo-grid {
-    width: 90%;
+    max-width: 90%;
     padding: 0 16px 62px 16px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .photo-grid__gallery {
-    width: 100%;
     margin: 0;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(8, 1fr);

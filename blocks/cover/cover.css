@@ -13,22 +13,14 @@
 }
 
 .cover:hover {
-  background-color: #2a2c2f;
-  opacity: 0.8;
-}
-
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("../../fonts/Inter-Black.woff2") format("woff2"),
-    url("../../fonts/Inter-Black.woff") format("woff");
+  background-image: url("../../images/cover__background.jpg");
+  color: #2a2c2f;
+  opacity: 0.3;
 }
 
 .cover__title {
   max-width: 656px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   color: #fffdfd;
   font-size: 72px;
   line-height: 76px;
@@ -37,32 +29,14 @@
   text-rendering: optimizeLegibility;
 }
 
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../../fonts/Inter-Regular.woff2") format("woff2"),
-    url("../../fonts/Inter-Regular.woff") format("woff");
-}
-
 .cover__subtitle {
   max-width: 230px;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   color: #ffffff;
   font-size: 18px;
   line-height: 22px;
   margin: 32px 0 32px 0;
-}
-
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url("../../fonts/Inter-SemiBold.woff2") format("woff2"),
-    url("../../fonts/Inter-SemiBold.woff") format("woff");
 }
 
 .cover__button {
@@ -85,6 +59,7 @@
 
 .cover__button:hover {
   background-color: #0063d2;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 960px) {
