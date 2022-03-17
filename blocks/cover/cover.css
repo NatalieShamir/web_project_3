@@ -15,7 +15,7 @@
 .cover:hover {
   background-image: url("../../images/cover__background.jpg");
   color: #2a2c2f;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .cover__title {
@@ -59,7 +59,6 @@
 
 .cover__button:hover {
   background-color: #0063d2;
-  color: #ffffff;
 }
 
 @media screen and (max-width: 960px) {
