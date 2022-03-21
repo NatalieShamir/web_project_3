@@ -1,5 +1,4 @@
 .places {
-  max-width: 987px;
   padding: 0 148px 0 145px;
 }
 
@@ -14,5 +13,6 @@
   .places {
     max-width: 100%;
     padding: 0;
+    margin-bottom: 64px;
   }
 }
