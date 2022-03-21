@@ -15,3 +15,9 @@
     padding: 20px 0 50.15px 0;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .header__logo {
+    max-width: 62.5%;
+  }
+}
