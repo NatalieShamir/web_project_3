@@ -7,6 +7,7 @@
   background-image: url("../images/cover__background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #2a2c2f;
   min-height: 740px;
   display: flex;
   flex-direction: column;
