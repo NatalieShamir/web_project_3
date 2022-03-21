@@ -1,7 +1,7 @@
 .intro {
   max-width: 785px;
   color: #ffffff;
-  padding: 0 347px 118px 148px;
+  margin: 0 347px 118px 148px;
 }
 
 .intro__title {
@@ -42,33 +42,40 @@
 
 @media screen and (max-width: 960px) {
   .intro {
-    padding: 0 24px 90px 24px;
+    margin: 0 24px 90px 24px;
     max-width: 94%;
   }
 }
 
 @media screen and (max-width: 960px) {
+  .intro__title {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 960px) {
   .intro__quote {
-    max-width: 100%;
+    width: 100%;
+    margin: 40px 0 10px 0;
   }
 }
 
 @media screen and (max-width: 960px) {
   .intro__author {
-    max-width: 100%;
+    width: 100%;
+    margin: 0 0 32px 0;
   }
 }
 
 @media screen and (max-width: 960px) {
   .intro__text {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .intro {
     max-width: 90%;
-    padding: 0 16px 90px 16px;
+    margin: 0 16px 90px 16px;
   }
 }
 
