@@ -138,7 +138,7 @@
 
 @media screen and (max-width: 600px) {
   .place__title {
-    max-width: 288px;
+    max-width: 90%;
     margin: 0 16px;
     font-family: "Inter", sans-serif;
     font-size: 32px;
@@ -147,7 +147,7 @@
 
 @media screen and (max-width: 600px) {
   .place__artist-info {
-    max-width: 288px;
+    max-width: 90%;
     margin: 0 16px;
   }
 }
@@ -162,7 +162,7 @@
   .place__content {
     max-width: 90%;
     font-size: 16px;
-    margin: 0 16px;
+    margin: 0 auto;
   }
 }
 
@@ -175,7 +175,7 @@
 @media screen and (max-width: 600px) {
   .place__button {
     max-width: 90%;
-    margin: 0 16px;
+    margin: 0 auto;
     padding: 13px 40px;
   }
 }
