@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 960px) {
   .intro {
-    margin: 0 24px 90px 24px;
+    margin: 0 auto 90px auto;
     max-width: 94%;
   }
 }
@@ -75,7 +75,7 @@
 @media screen and (max-width: 600px) {
   .intro {
     max-width: 90%;
-    margin: 0 16px 90px 16px;
+    margin: 0 auto 90px auto;
   }
 }
 
