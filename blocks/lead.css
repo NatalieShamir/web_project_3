@@ -59,7 +59,7 @@
     max-width: 90%;
     font-size: 44px;
     line-height: 44px;
-    margin: 0 16px 16px 16px;
+    margin: 0 auto 16px auto;
   }
 }
 
@@ -68,6 +68,6 @@
     max-width: 90%;
     font-size: 16px;
     line-height: 20px;
-    margin: 0 16px 40px 16px;
+    margin: 0 auto 40px auto;
   }
 }
