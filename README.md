@@ -17,4 +17,4 @@ CSS files have been organized according to BEM methodology.
 
 **GitHub**
 
-- [https://github.com/NatalieShamir/web_project_3]()
+- [https://natalieshamir.github.io/web_project_3/]()
